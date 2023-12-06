@@ -6,20 +6,83 @@
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase ;
     color: #4d5ae5;
 }
 .button{
     cursor: pointer;
 }
-.span.color{
+.color{
     color: #2e2f42;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+
+.container{
+    border-bottom-width: 1px;
+    border-bottom-style:solid ;
+    border-bottom-color: #e7e9fc;
+    
+}
+.visuallu-hidder{
+    position:absolute;
+    width: 1px;
+    height:1px;
+    margin: -1px;;
+    border: 0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
                                    /* Heder  */
+
+
+.conteiner-heder{
+    width: 1440px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e7e9fc;
+    margin:0 auto;
+}
+.header-div-box{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+} 
+
+.header-box{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.heder-link{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height:1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+
+}
 .menu{
-    list-style-type: none;
-    font-style: normal;
+    display: flex;
+    gap: 40px;
+    margin-right:auto;
 }
 .nav-text{
     font-weight: 500;
@@ -50,7 +113,6 @@
 .addres{
     font-style: normal;
 }
-
 
 .h3{
     font-weight: 500;
