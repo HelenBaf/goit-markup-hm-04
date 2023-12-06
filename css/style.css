@@ -236,6 +236,10 @@ img{
 }
 
 .benefits-tablet{
+    width: 1128px;
+    height: 224px;
+    top: 792px;
+    left: 156px;
     display: flex;
     gap:24px;
 
