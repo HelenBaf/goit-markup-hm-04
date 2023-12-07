@@ -10,7 +10,8 @@
 }
 .button{
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition-property: background-color;
+   transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .color{
     color: #2e2f42;
@@ -347,7 +348,6 @@ img{
 .team-insta{
     width: 40px;
     height: 40px;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .team-ikon-inst{
@@ -358,6 +358,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .svg-team{
     fill: #f4f4fd;
