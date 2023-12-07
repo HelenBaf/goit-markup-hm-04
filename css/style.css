@@ -32,6 +32,7 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 ul,ol{
@@ -51,9 +52,12 @@ img{
 }
 
 .container{
+    width:1158px;
     border-bottom-width: 1px;
     border-bottom-style:solid ;
     border-bottom-color: #e7e9fc;
+    margin:0 auto;
+    padding:0 15px 0 15px;
     
 }
 .visuallu-hidder{
@@ -236,20 +240,30 @@ img{
 
   
 }
+.benefits-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+.benefits-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 .benefits-box{
-    width: 1128px;
-    height: 224px;
-    top: 792px;
-    left: 156px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 120px 0 120px;
     
  
 }
 .flex{
     display: flex;
     gap: 24px;
-    margin-right: 24px;
+   
 }
 .benefits-tablet{
     display: flex;
@@ -261,7 +275,7 @@ img{
 }
 .class-benefits{
     width: calc((100% - 72px)/4);
-    box-shadow:s 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .benefits-div-svg{
     display: flex;
@@ -280,6 +294,12 @@ img{
                             /* 3 box */
 .team{
     background-color: #F4F4FD;
+ 
+    width: 1440px;
+    height: 780px;
+     top: 1136px;
+
+
 }
 .title-team{
     font-weight: 700;
@@ -287,8 +307,23 @@ img{
     line-height: 40px;;
     letter-spacing:0.02em;
     color: #2E2F42;
+    text-align: center;
+}
+.team-box{
+    display: flex;
+    gap: 24px;
+   justify-content: center;
+}
+.team-div{
+    padding: 32px 0 32px;
 }
 
+.team-sosheal-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
 .time-punkt{
     background-color: #FFFFFF;
 }
@@ -307,6 +342,30 @@ img{
     color:#434455 ;
 }
 
+.team-insta{
+    width: 40px;
+    height: 40px;
+    background-color:250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    border-radius:0px, 0px, 4px, 4px;
+    Padding:0px, 0px, 32px, 0px;
+
+}
+
+.team-ikon-inst{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-team{
+    fill: #f4f4fd;
+    width: 16;
+    height: 16;
+}
+
                         /* 4 box */
 
 .title-portfolio{
@@ -316,6 +375,20 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+}
+.portfolio-box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+.portfolio-li{
+    width: calc((100% - 48px)/3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-li:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-name{
     font-weight: 500;
