@@ -42,7 +42,10 @@ ul,ol{
 li{
     list-style-type:none;
     font-style:normal;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
+
 img{
     display: block;
 }
@@ -230,20 +233,50 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
+  
 }
 .benefits-box{
-    padding: 120px 0 120px;
-}
-
-.benefits-tablet{
     width: 1128px;
     height: 224px;
     top: 792px;
     left: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+}
+.flex{
     display: flex;
-    gap:24px;
+    gap: 24px;
+    margin-right: 24px;
+}
+.benefits-tablet{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:24px;
+    row-gap: 48;
+
+   
+}
+.class-benefits{
+    width: calc((100% - 72px)/4);
+    box-shadow:s 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.benefits-div-svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 
 }
+.benefits-li{
+    width: calc((100% - 72px)/4);
+}
+
                             /* 3 box */
 .team{
     background-color: #F4F4FD;
