@@ -388,9 +388,10 @@ img{
 
 .portfolio-li{
     width: calc((100% - 48px)/3);
+}
+.portfolio-li:hover{
     box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 
 .portfolio-name{
