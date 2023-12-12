@@ -230,7 +230,7 @@ img{
 }
 .button-main:focus{
     background-color: #404BBF;
-
+    transition: 250ms,cubic-bezier(0.4, 0, 0.2, 1);
 }
 
                                /* 2 box */
@@ -365,6 +365,11 @@ img{
     width: 16;
     height: 16;
 }
+    
+.svg-team:hover{
+    
+    transition:250ms,cubic-bezier(0.4, 0, 0.2, 1); 
+}
 
                         /* 4 box */
 
@@ -388,10 +393,10 @@ img{
 
 .portfolio-li{
     width: calc((100% - 48px)/3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 250ms,cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-li:hover{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0%);
 }
 
