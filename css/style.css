@@ -301,6 +301,7 @@ img{
     width: 1440px;
     height: 780px;
     top: 1136px;
+    display: flex;
 }
 
 .title-team{
