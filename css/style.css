@@ -329,7 +329,7 @@ img{
                             .team-sosheal-list{
                                 display: flex;
                                 justify-content: center;
-                                gap: 16px;
+                                gap: 24px;
                             
                             }
                             .team-insta{
@@ -355,8 +355,8 @@ img{
                             }
                             .svg-team{
                                 fill: #f4f4fd;
-                                width: 16;
-                                height: 16;
+                                width: 40px;
+                                height: 40px;
                             
                             }
                             
