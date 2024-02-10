@@ -10,6 +10,7 @@
 }
 .button{
     cursor: pointer;
+    transition:background-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
 .color{
     color: #2e2f42;
@@ -218,7 +219,6 @@ img{
     min-width:169px;
     height: 56px;
     border: none;
-    transition:background-color 250ms cubic-bezier(0.4,0,0.2,1);
     background-color: #4d5ae5;
     border-radius: 4px;
     margin-left: auto;
