@@ -551,3 +551,28 @@ h3{
 .footer-svg{
     fill: #f4f4fd
 }
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(76,76,76,0.594);
+}
+.modal{
+    width: 408px;
+    min-height: 584px;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius:4px;
+    position: absolute;
+    top: 80px;
+    left: 516px;
+}
+
+.modal-clos{
+    width: 24px;
+    height: 24px;
+    top: 104px;
+    left: 876px;
+    border-radius: 4px;
+}
