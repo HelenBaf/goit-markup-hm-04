@@ -700,7 +700,7 @@ h3{
 
 
 }
-.privacy-span{
+.privacy-span span {
     width: 16px; 
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4); 
@@ -713,8 +713,8 @@ h3{
 
 
 }
-.privacy-input:checked + .privacy-span{
-    background-color:  #404bbf; 
+.privacy-input:checked + .privacy-span span{
+    background-color:#404bbf; 
     border: none;
     fill:#F4F4FD;
 }
