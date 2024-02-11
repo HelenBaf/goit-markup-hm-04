@@ -684,12 +684,19 @@ h3{
     margin-bottom: 24px;
 
 }
+.visuallu-hidder{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
 
 .privacy-lable{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em; 
     color:#8e8f99;
-    
+
 
 }
