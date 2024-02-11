@@ -709,7 +709,7 @@ h3{
 
 
 }
-.privacy-input:focus + .privacy-span{
+.privacy-input:checked + .privacy-span:checked{
     background-color:#404bbf; 
     border:none;
     fill:#F4F4FD;
