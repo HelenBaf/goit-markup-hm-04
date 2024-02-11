@@ -710,6 +710,14 @@ h3{
     align-items: center;
     justify-content: center; 
     fill: transparent;
-    
 
+
+}
+.privacy-input:checked + .privacy-span{
+    background-color:  #404bbf; 
+    border: none;
+    fill:#F4F4FD;
+}
+.privacy-sul{
+    color:#4d5ae5;
 }
