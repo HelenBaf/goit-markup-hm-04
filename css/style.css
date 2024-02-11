@@ -600,7 +600,7 @@ h3{
 
 .modal-clos:focus{
     background-color: #404bbf; 
-    background-color: #404bbf; 
+    border: none;
 }
 .modal-clos-svag{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -659,12 +659,6 @@ h3{
     top: 50%; 
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 
 }
-.user-svg:focus{
-    fill: #4D5AE5;
-}
-.user-svg:hover{
-    fill: #4D5AE5;
-}
+
