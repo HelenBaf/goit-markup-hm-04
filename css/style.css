@@ -645,8 +645,8 @@ h3{
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-oan:focus{
-    border-color: #4D5AE5;
+.input-oan:focus + .user-svg{
+    fill: #4D5AE5;
 }
 
 .user-svg{
@@ -706,7 +706,7 @@ h3{
 
 
 }
-.privacy-input:checked  .privacy-span{
+.privacy-input:focus + .privacy-span{
     background-color:#404bbf; 
     border:none;
     fill:#F4F4FD;
