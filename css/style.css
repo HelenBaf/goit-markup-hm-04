@@ -684,13 +684,12 @@ h3{
     margin-bottom: 24px;
 
 }
-.privacy-input{
 
-}
 .privacy-lable{
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04em; 
     color:#8e8f99;
+    
 
 }
