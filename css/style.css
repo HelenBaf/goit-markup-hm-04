@@ -51,10 +51,12 @@ li{
 
 img{
     display: block;
+    max-width:100%;
+    height: auto;
 }
 
 .container{
-    width:1158px;
+    max-width:1158px;
     border-bottom-width: 1px;
     border-bottom-style:solid ;
     border-bottom-color: #e7e9fc;
@@ -79,7 +81,6 @@ img{
 
 
 .conteiner-heder{
-    width: 1440px;
     border-bottom: 1px;
     border-bottom-style: solid;
     border-bottom-color: #e7e9fc;
@@ -89,13 +90,12 @@ img{
 .header-div-box{
   display: flex;
   align-items: center;
-  margin-right: auto;
+  justify-content: space-between;
 } 
 
 .header-box{
     display: flex;
     align-items: center;
-    margin-right: auto;
 }
 .heder-link{
     font-weight: 700;
@@ -484,8 +484,7 @@ h3{
 
 .footer{
     background-color: #2e2f42;
-    padding: 100px 0 100px;
-    margin-bottom: 16px;
+    padding: 100px 0;
     display: flex;
     align-items: baseline;
 }
@@ -552,6 +551,16 @@ h3{
 }
 .footer-svg{
     fill: #f4f4fd
+}
+
+.futer-subs{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #ffffff; 
+    
 }
 
 .backdrop{
@@ -727,7 +736,6 @@ h3{
     display: block; 
     min-width: 169px;
     height: 56px ;
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
